@@ -9,14 +9,14 @@
       <img
         height="24"
         width="24"
-        src="../assets/logo/star.svg"
+        src="../assets/svg/star.svg"
         alt=""
         class="header__shops-icon"
       />
       <img
         height="24"
         width="24"
-        src="../assets/logo/shop.svg"
+        src="../assets/svg/shop.svg"
         alt=""
         class="header__shops-icon"
       />
@@ -24,3 +24,4 @@
     </div>
   </div>
 </template>
+svg

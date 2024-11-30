@@ -6,7 +6,7 @@
           <ul class="footer__main-info">
             <li class="footer__main-info-logo">
               <a class="header__nav-img" href="#">
-                <img src="../assets/logo/logo.svg" alt="logo.svg" />
+                <img src="../assets/svg/logo.svg" alt="logo.svg" />
               </a>
             </li>
             <li class="footer__main-info-text">
@@ -14,7 +14,7 @@
             </li>
             <li class="footer__main-info-download">
               <a class="header__nav-img" href="#">
-                <img src="../assets/logo/desktop.svg" alt="logo.svg" />
+                <img src="../assets/svg/desktop.svg" alt="logo.svg" />
               </a>
             </li>
             <li class="footer__main-info-company">

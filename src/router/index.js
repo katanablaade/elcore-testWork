@@ -7,6 +7,7 @@ const routes = [{ path: '/', component: () => import('../views/MainPage') }];
 
 const router = new VueRouter({
   mode: 'history',
+  base: '/elcore-test/',
   routes,
 });
 

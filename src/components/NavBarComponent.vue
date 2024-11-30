@@ -3,7 +3,7 @@
     <div class="container">
       <div class="header__nav-content">
         <a class="header__nav-img" href="#">
-          <img src="../assets/logo/logo.svg" alt="logo.svg" />
+          <img src="../assets/svg/logo.svg" alt="logo.svg" />
         </a>
         <ul class="header__nav-list">
           <li class="header__nav-list-item">ElcoreStore</li>
@@ -12,7 +12,7 @@
           <div class="header__nav-list-item-arrow">
             <li class="header__nav-list-item">Обучение и ресурсы</li>
             <img
-              src="../assets/logo/arrow.svg"
+              src="../assets/svg/arrow.svg"
               alt=""
               class="header__nav-list-item-arrow-img"
             />
