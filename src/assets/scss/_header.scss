@@ -1,0 +1,139 @@
+.header {
+  &__content {
+    display: flex;
+    padding: 0.75rem 0rem 0.75rem 0rem;
+    justify-content: space-between;
+  }
+  &__icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.375rem;
+    object-fit: cover;
+  }
+  &__banner {
+    background: rgb(38, 38, 38);
+  }
+  &__list {
+    display: flex;
+    gap: 1.875rem;
+    &-item {
+      list-style: none;
+      color: rgb(243, 243, 243);
+      font-family: Roboto;
+      font-size: 0.9375rem;
+      font-weight: 700;
+      line-height: 160%;
+      cursor: pointer;
+    }
+  }
+  &__shops {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+    margin-left: 3.5rem;
+    &-icon {
+      cursor: pointer;
+    }
+  }
+  &__btn {
+    background: rgb(66, 141, 38);
+    padding: 0.375rem 0.875rem 0.375rem 0.875rem;
+    border-radius: 0.1875rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1rem;
+    cursor: pointer;
+  }
+  &__list-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__nav {
+    border: 0.0625rem solid rgb(0, 0, 0);
+    background: rgb(16, 16, 16);
+    &__img {
+      cursor: alias;
+    }
+    &-content {
+      padding-top: 2.1875rem;
+      padding-bottom: 2.1875rem;
+      display: flex;
+      justify-content: space-between;
+    }
+    &-list {
+      display: flex;
+      gap: 2.5rem;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      &-item {
+        list-style: none;
+        color: rgb(255, 255, 255);
+        font-size: 1.125rem;
+        font-weight: 700;
+        line-height: 1.3125rem;
+        &-arrow {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.5rem;
+          &-img {
+            height: 0.625rem;
+            width: 0.8125rem;
+          }
+        }
+      }
+    }
+  }
+  &__burger-btn-wrapper {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6875rem;
+    &-line {
+      height: 0.125rem;
+      width: 2.0625rem;
+      border-radius: 3px;
+      background: rgb(217, 217, 217);
+    }
+  }
+  &__breadcrumbs {
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(38, 38, 38);
+    &-content {
+      padding-top: 0.625rem;
+      padding-bottom: 0.75rem;
+    }
+    &-list {
+      display: flex;
+      gap: 0.625rem;
+    }
+    &-list-item {
+      list-style: none;
+      display: flex;
+      gap: 0.625rem;
+    }
+    &-list-link {
+      text-decoration: none;
+      color: rgb(217, 217, 217);
+      font-size: 0.75rem;
+      font-weight: 400;
+      line-height: 160%;
+      &:last-child {
+        cursor: default;
+      }
+    }
+    &-separator {
+      color: rgb(217, 217, 217);
+      font-size: 0.75rem;
+      font-weight: 400;
+      line-height: 160%;
+      cursor: default;
+    }
+  }
+}

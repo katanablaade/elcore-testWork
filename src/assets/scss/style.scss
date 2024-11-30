@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  outline: none;
+}
+body {
+  background: rgb(245, 245, 245);
+}
+footer {
+  background: rgb(16, 16, 16);
+}
+
+.container {
+  max-width: 1752px;
+  width: 100%;
+  margin: auto;
+  padding: 0 15px;
+}
+.content-wrapper {
+  display: flex;
+}
+.section {
+  margin-top: 4.375rem;
+  margin-bottom: 5rem;
+  background: rgb(245, 245, 245);
+}
+
+@import 'header';
+@import 'card';
+@import 'footer';
+@import 'pagination';
+
+@media (max-width: 1445px) {
+  .container {
+    padding: 0 15px;
+    max-width: 1302px;
+    width: 100%;
+    margin: auto;
+  }
+  .card__wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 899.98px;
+  }
+  .card__wrapper {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .header__nav-list {
+    gap: 1rem;
+  }
+  .header__nav-img {
+    margin-right: 10px;
+  }
+  .header__nav-list-item-arrow {
+    width: 100%;
+  }
+  .header__burger-btn-wrapper {
+    margin-left: 24px;
+  }
+  .footer__lists {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 791.98px;
+  }
+  .header__nav-list {
+    display: none;
+  }
+  .footer__top-content {
+    flex-direction: column;
+  }
+  .footer__main {
+    display: flex;
+    justify-content: center;
+  }
+  .footer__lists {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .footer-lists-info {
+    width: 220px;
+  }
+  .card__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 567.98px;
+  }
+  .header__content {
+    justify-content: center;
+  }
+  .header__icon-wrapper {
+    display: none;
+  }
+
+  .footer__other-info {
+    gap: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__btn {
+    padding: 0.8125rem 0.3625rem 0.8125rem 0.3625rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 375.98px;
+    margin: auto;
+  }
+  .card__wrapper {
+    grid-template-columns: 1fr;
+  }
+  .header__list {
+    display: none;
+  }
+  .header__shops {
+    margin-left: 0;
+  }
+  .footer__lists {
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .header__burger-btn-wrapper {
+    gap: 0.5rem;
+  }
+}

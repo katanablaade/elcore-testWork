@@ -1,0 +1,92 @@
+.footer {
+  &__main {
+    margin-top: 4.375rem;
+  }
+
+  &__top {
+    background: rgb(16, 16, 16);
+    margin-bottom: 6.25rem;
+
+    &-content {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &__main-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 16.875rem;
+    &-company,
+    &-text {
+      color: rgb(255, 255, 255);
+      font-size: 1.125rem;
+      line-height: 160%;
+      list-style: none;
+      font-weight: 500;
+      cursor: default;
+    }
+    &-logo {
+      list-style: none;
+    }
+    &-text {
+      margin-top: 1.7888rem;
+    }
+    &-download {
+      margin-top: 0.8125rem;
+      list-style: none;
+    }
+    &-company {
+      margin-top: 2.0625rem;
+    }
+  }
+  &__lists {
+    margin-top: 4.375rem;
+    display: flex;
+    gap: 7.5rem;
+
+    &-item {
+      color: rgb(255, 255, 255);
+      font-size: 1.125rem;
+      font-weight: 400;
+      line-height: 130%;
+      list-style: none;
+      margin-bottom: 1.125rem;
+      cursor: pointer;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    &-title {
+      color: rgb(108, 108, 108);
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.75rem;
+      list-style: none;
+      margin-bottom: 1.625rem;
+      cursor: default;
+    }
+  }
+  &__btn {
+    padding: 0.8125rem 1.0625rem 0.8125rem 1.0625rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0.1875rem;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.3125rem;
+    margin-bottom: 1.625rem;
+    cursor: pointer;
+  }
+  &__other-info {
+    display: flex;
+    gap: 1.375rem;
+  }
+  &__policy,
+  &__map {
+    color: rgb(171, 171, 171);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+  }
+}
